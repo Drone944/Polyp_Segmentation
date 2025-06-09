@@ -107,3 +107,7 @@ Polyp_Segmentation/
 - [Albumentations](https://github.com/albumentations-team/albumentations)
 - [Weights & Biases](https://wandb.ai)
 - [Segmentation Models PyTorch](https://github.com/qubvel/segmentation_models.pytorch)
+
+## Notebooks
+- Sweeps: https://colab.research.google.com/drive/1vtyWsT6fvvlAnovEzhNqr5Xq2A_3YSWB?usp=sharing
+- Training: https://www.kaggle.com/code/manasvarmak/polyp-segmentation
