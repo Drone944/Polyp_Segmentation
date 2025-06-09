@@ -1,0 +1,15 @@
+{
+  "os": "Linux-6.13.3-arch1-1-x86_64-with-glibc2.41",
+  "python": "CPython 3.13.2",
+  "startedAt": "2025-06-09T10:19:01.688341Z",
+  "program": "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/sweep.py",
+  "codePath": "sweep.py",
+  "git": {
+    "remote": "https://github.com/Drone944/Polyp_Segmentation.git"
+  },
+  "email": "manasvarma944@gmail.com",
+  "root": "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation",
+  "host": "matrix",
+  "executable": "/home/neo/amFOSS/venv/bin/python3",
+  "codePathLocal": "sweep.py"
+}

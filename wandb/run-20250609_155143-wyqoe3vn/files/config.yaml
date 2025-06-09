@@ -1,0 +1,52 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.13.2
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 63
+                - 74
+                - 80
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 63
+                - 74
+                - 80
+                - 105
+            "3":
+                - 13
+                - 16
+                - 55
+            "4": 3.13.2
+            "5": 0.20.1
+            "12": 0.20.1
+            "13": linux-x86_64
+architecture:
+    value: Unet
+batch_size:
+    value: 8
+dataset:
+    value: Kvasir-SEG
+encoder:
+    value: efficientnet-b4
+encoder_weights:
+    value: imagenet
+epochs:
+    value: 20
+image_dir:
+    value: ./data/images
+mask_dir:
+    value: ./data/masks
+use_pretrained:
+    value: true

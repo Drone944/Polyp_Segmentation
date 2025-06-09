@@ -1,0 +1,7 @@
+{"time":"2025-06-09T17:06:40.585243256+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/wandb/run-20250609_170640-6t340vgp/logs/debug-core.log"}
+{"time":"2025-06-09T17:06:41.49507328+05:30","level":"INFO","msg":"stream: created new stream","id":"6t340vgp"}
+{"time":"2025-06-09T17:06:41.495127807+05:30","level":"INFO","msg":"stream: started","id":"6t340vgp"}
+{"time":"2025-06-09T17:06:41.495172209+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6t340vgp"}
+{"time":"2025-06-09T17:06:41.49520539+05:30","level":"INFO","msg":"sender: started","stream_id":"6t340vgp"}
+{"time":"2025-06-09T17:06:41.495252827+05:30","level":"INFO","msg":"handler: started","stream_id":"6t340vgp"}
+{"time":"2025-06-09T17:06:41.943695052+05:30","level":"INFO","msg":"Starting system monitor"}

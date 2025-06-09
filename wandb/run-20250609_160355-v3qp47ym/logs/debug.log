@@ -1,0 +1,22 @@
+2025-06-09 16:03:55,627 INFO    MainThread:58221 [wandb_setup.py:_flush():81] Current SDK version is 0.20.1
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_setup.py:_flush():81] Configure stats pid to 58221
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_setup.py:_flush():81] Loading settings from /home/neo/.config/wandb/settings
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_setup.py:_flush():81] Loading settings from /home/neo/amFOSS/AI_Projects/Polyp_Segmentation/wandb/settings
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/neo/amFOSS/AI_Projects/Polyp_Segmentation/wandb/run-20250609_160355-v3qp47ym/logs/debug.log
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/neo/amFOSS/AI_Projects/Polyp_Segmentation/wandb/run-20250609_160355-v3qp47ym/logs/debug-internal.log
+2025-06-09 16:03:55,628 INFO    MainThread:58221 [wandb_init.py:init():831] calling init triggers
+2025-06-09 16:03:55,629 INFO    MainThread:58221 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'use_pretrained': True, 'encoder': 'efficientnet-b4', 'encoder_weights': 'imagenet', 'use_amp': False, 'epochs': 20, 'batch_size': 8, 'architecture': 'Unet', 'dataset': 'Kvasir-SEG', 'image_dir': './data/images', 'mask_dir': './data/masks', '_wandb': {}}
+2025-06-09 16:03:55,629 INFO    MainThread:58221 [wandb_init.py:init():872] starting backend
+2025-06-09 16:03:55,844 INFO    MainThread:58221 [wandb_init.py:init():875] sending inform_init request
+2025-06-09 16:03:55,850 INFO    MainThread:58221 [wandb_init.py:init():883] backend started and connected
+2025-06-09 16:03:55,853 INFO    MainThread:58221 [wandb_init.py:init():956] updated telemetry
+2025-06-09 16:03:55,859 INFO    MainThread:58221 [wandb_init.py:init():980] communicating run to backend with 90.0 second timeout
+2025-06-09 16:03:57,368 INFO    MainThread:58221 [wandb_init.py:init():1032] starting run threads in backend
+2025-06-09 16:03:57,769 INFO    MainThread:58221 [wandb_run.py:_console_start():2453] atexit reg
+2025-06-09 16:03:57,769 INFO    MainThread:58221 [wandb_run.py:_redirect():2301] redirect: wrap_raw
+2025-06-09 16:03:57,770 INFO    MainThread:58221 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-06-09 16:03:57,770 INFO    MainThread:58221 [wandb_run.py:_redirect():2393] Redirects installed.
+2025-06-09 16:03:57,771 INFO    MainThread:58221 [wandb_init.py:init():1078] run started, returning control to user process
+2025-06-09 16:03:59,201 INFO    MsgRouterThr:58221 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

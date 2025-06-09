@@ -1,0 +1,19 @@
+[INFO] Using pretrained UNet from segmentation_models_pytorch.
+/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/train.py:56: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Traceback (most recent call last):
+  File "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/sweep.py", line 2, in <module>
+    from train import train
+  File "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/train.py", line 74, in <module>
+    for batch_idx, (images, masks) in enumerate(train_loader):
+                                      ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py", line 733, in __next__
+    data = self._next_data()
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/utils/dataset.py", line 23, in __getitem__
+    augmented = self.transform(image=np.array(image), mask=np.array(mask))
+TypeError: get_train_transform() got an unexpected keyword argument 'image'

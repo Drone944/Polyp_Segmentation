@@ -1,0 +1,15 @@
+{"time":"2025-06-09T15:49:42.855955938+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/wandb/run-20250609_154942-sxocwr6p/logs/debug-core.log"}
+{"time":"2025-06-09T15:49:43.674044101+05:30","level":"INFO","msg":"stream: created new stream","id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:43.674113429+05:30","level":"INFO","msg":"stream: started","id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:43.674156615+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:43.674183846+05:30","level":"INFO","msg":"handler: started","stream_id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:43.674231447+05:30","level":"INFO","msg":"sender: started","stream_id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:44.101327497+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-09T15:49:44.772196544+05:30","level":"INFO","msg":"stream: closing","id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:44.772283172+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-09T15:49:44.772334036+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-09T15:49:46.004307458+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-09T15:49:46.819482362+05:30","level":"INFO","msg":"handler: closed","stream_id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:46.819648671+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:46.819858894+05:30","level":"INFO","msg":"sender: closed","stream_id":"sxocwr6p"}
+{"time":"2025-06-09T15:49:46.819921518+05:30","level":"INFO","msg":"stream: closed","id":"sxocwr6p"}

@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.13.3-arch1-1-x86_64-with-glibc2.41",
+  "python": "CPython 3.13.2",
+  "startedAt": "2025-06-09T11:31:10.432144Z",
+  "program": "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/sweep.py",
+  "codePath": "sweep.py",
+  "git": {
+    "remote": "https://github.com/Drone944/Polyp_Segmentation.git"
+  },
+  "email": "manasvarma944@gmail.com",
+  "root": "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation",
+  "host": "matrix",
+  "executable": "/home/neo/amFOSS/venv/bin/python3",
+  "codePathLocal": "sweep.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce GTX 1650 Ti with Max-Q Design",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "210235006976",
+      "used": "78653091840"
+    }
+  },
+  "memory": {
+    "total": "41895858176"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1650 Ti with Max-Q Design",
+      "memoryTotal": "4294967296",
+      "cudaCores": 1024,
+      "architecture": "Turing",
+      "uuid": "GPU-d43de3a0-b8aa-ca7a-5524-6a98cb06ae73"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

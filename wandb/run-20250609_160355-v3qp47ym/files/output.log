@@ -1,0 +1,36 @@
+[INFO] Using pretrained UNet from segmentation_models_pytorch.
+/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/train.py:57: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/train.py:82: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Traceback (most recent call last):
+  File "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/sweep.py", line 2, in <module>
+    from train import train
+  File "/home/neo/amFOSS/AI_Projects/Polyp_Segmentation/train.py", line 83, in <module>
+    outputs = model(images)
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/segmentation_models_pytorch/base/model.py", line 66, in forward
+    features = self.encoder(x)
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/segmentation_models_pytorch/encoders/efficientnet.py", line 69, in forward
+    x = self._conv_stem(x)
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/neo/amFOSS/venv/lib/python3.13/site-packages/segmentation_models_pytorch/encoders/_efficientnet.py", line 588, in forward
+    x = F.conv2d(
+        x,
+    ...<5 lines>...
+        self.groups,
+    )
+RuntimeError: Input type (torch.cuda.HalfTensor) and weight type (torch.FloatTensor) should be the same
