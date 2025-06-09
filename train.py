@@ -144,7 +144,6 @@ def train(config):
 
 
 if __name__ == "__main__":
-    # Default config here or import from somewhere else
     config = {
         "use_pretrained": True,
         "encoder": "efficientnet-b4",
